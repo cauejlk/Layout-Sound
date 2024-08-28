@@ -1,0 +1,66 @@
+/*-----------------------------------------------------
+                CSS RESET
+----------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+/*-----------------------------------------------------
+                Formatação geral
+----------------------------------------------------*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243d;
+}
+
+main{
+    margin: 3vw 10vw 3vw 10vw;
+}
+/*-----------------------------------------------------
+                Formatação do topo página
+----------------------------------------------------*/
+header{
+    margin: 0vw 7vw 5vw 0vw;
+}
+
+header p{
+    margin: 4vw 7vw -3vw 10vw;
+    font-weight: bold;
+}
+
+header p span{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding: 4px 10px 4px 10px;
+    margin: 0 10px 0 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li{
+    margin: 0 2vw 0 0;
+}
+
+header nav ul li a{
+    color: rgb(85, 60, 22, 1);;
+}
+
+/*-----------------------------------------------------
+                Formatação de home
+----------------------------------------------------*/
+
