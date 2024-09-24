@@ -219,3 +219,22 @@ section.caseStudy h3{
     font-size: 2rem;
     margin: 0 0 1vw 0;
 }
+
+footer {
+    text-align: center;
+    padding: 1vw 0vw 2vw 0vw;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0px 5px 5px 5px;
+    font-size: 1.4rem;
+}
+
+footer nav ul a span {
+    color: rgba(33, 36, 61, 1);
+}
